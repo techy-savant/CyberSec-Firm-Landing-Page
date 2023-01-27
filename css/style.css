@@ -656,7 +656,13 @@ form .btn{
 .footer .credit span{
   color: var(--white);
 }
-
+.copyright{
+  font-size: 14px;
+  text-align: center;
+  padding: 20px;
+  background-color: #444;
+  color: var(--white);
+}
 
 /* footer ends */
 

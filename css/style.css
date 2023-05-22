@@ -405,11 +405,6 @@ section{
   transform-origin: top;
 }
 
-@keyframes animate{
-  0%{
-    transform: scaleY(0);
-  }
-}
 
 /* faq ends*/
 

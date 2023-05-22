@@ -654,7 +654,7 @@ form .btn{
 .copyright{
   font-size: 14px;
   text-align: center;
-  padding: 20px;
+  padding: 20px 0px 0px;
   background-color: #444;
   color: var(--white);
 }

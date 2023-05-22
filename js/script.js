@@ -31,14 +31,13 @@ document.addEventListener('DOMContentLoaded', function() {
   function startCountAnimation() {
     elements.forEach(function(element) {
       var targetValue = parseInt(element.textContent, 10);
-      var duration = 3000;
+      var duration = 3500;
       var startTime = null;
-      var initialValue = 0;
 
       function animateCount(timestamp) {
         if (!startTime) startTime = timestamp;
         var progress = timestamp - startTime;
-        var increment = Math.ceil((targetValue / duration) * progress) + initialValue;
+        var increment = Math.ceil((targetValue / duration) * progress);
 
         if (increment >= targetValue) {
           element.textContent = targetValue + '+';
